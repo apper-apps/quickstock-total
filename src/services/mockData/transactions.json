@@ -1,0 +1,112 @@
+[
+  {
+    "Id": 1,
+    "items": [
+      {
+        "productId": "1",
+        "name": "iPhone 15 Pro",
+        "price": 999.99,
+        "quantity": 1,
+        "subtotal": 999.99
+      },
+      {
+        "productId": "3",
+        "name": "AirPods Pro 2nd Gen",
+        "price": 249.99,
+        "quantity": 1,
+        "subtotal": 249.99
+      }
+    ],
+    "total": 1249.98,
+    "paymentMethod": "Credit Card",
+    "timestamp": "2024-01-15T14:30:00Z",
+    "status": "completed"
+  },
+  {
+    "Id": 2,
+    "items": [
+      {
+        "productId": "2",
+        "name": "Samsung Galaxy S24",
+        "price": 899.99,
+        "quantity": 1,
+        "subtotal": 899.99
+      }
+    ],
+    "total": 899.99,
+    "paymentMethod": "Cash",
+    "timestamp": "2024-01-15T15:45:00Z",
+    "status": "completed"
+  },
+  {
+    "Id": 3,
+    "items": [
+      {
+        "productId": "6",
+        "name": "Apple Watch Series 9",
+        "price": 429.99,
+        "quantity": 2,
+        "subtotal": 859.98
+      }
+    ],
+    "total": 859.98,
+    "paymentMethod": "Debit Card",
+    "timestamp": "2024-01-15T16:20:00Z",
+    "status": "completed"
+  },
+  {
+    "Id": 4,
+    "items": [
+      {
+        "productId": "4",
+        "name": "MacBook Air M2",
+        "price": 1199.99,
+        "quantity": 1,
+        "subtotal": 1199.99
+      },
+      {
+        "productId": "7",
+        "name": "Sony WH-1000XM5",
+        "price": 399.99,
+        "quantity": 1,
+        "subtotal": 399.99
+      }
+    ],
+    "total": 1599.98,
+    "paymentMethod": "Credit Card",
+    "timestamp": "2024-01-14T11:15:00Z",
+    "status": "completed"
+  },
+  {
+    "Id": 5,
+    "items": [
+      {
+        "productId": "10",
+        "name": "Bose QuietComfort 45",
+        "price": 329.99,
+        "quantity": 1,
+        "subtotal": 329.99
+      }
+    ],
+    "total": 329.99,
+    "paymentMethod": "Cash",
+    "timestamp": "2024-01-14T13:30:00Z",
+    "status": "completed"
+  },
+  {
+    "Id": 6,
+    "items": [
+      {
+        "productId": "5",
+        "name": "iPad Pro 12.9\"",
+        "price": 1099.99,
+        "quantity": 1,
+        "subtotal": 1099.99
+      }
+    ],
+    "total": 1099.99,
+    "paymentMethod": "Credit Card",
+    "timestamp": "2024-01-13T10:45:00Z",
+    "status": "completed"
+  }
+]

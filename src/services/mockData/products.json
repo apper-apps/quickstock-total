@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "name": "iPhone 15 Pro",
+    "sku": "IPH15P-128",
+    "price": 999.99,
+    "stock": 15,
+    "lowStockThreshold": 5,
+    "category": "Electronics",
+    "imageUrl": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=300&h=300&fit=crop"
+  },
+  {
+    "Id": 2,
+    "name": "Samsung Galaxy S24",
+    "sku": "SGS24-256",
+    "price": 899.99,
+    "stock": 3,
+    "lowStockThreshold": 5,
+    "category": "Electronics",
+    "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300&h=300&fit=crop"
+  },
+  {
+    "Id": 3,
+    "name": "AirPods Pro 2nd Gen",
+    "sku": "APP2G-WHT",
+    "price": 249.99,
+    "stock": 25,
+    "lowStockThreshold": 10,
+    "category": "Audio",
+    "imageUrl": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=300&h=300&fit=crop"
+  },
+  {
+    "Id": 4,
+    "name": "MacBook Air M2",
+    "sku": "MBA-M2-256",
+    "price": 1199.99,
+    "stock": 8,
+    "lowStockThreshold": 3,
+    "category": "Computers",
+    "imageUrl": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=300&h=300&fit=crop"
+  },
+  {
+    "Id": 5,
+    "name": "iPad Pro 12.9\"",
+    "sku": "IPP129-512",
+    "price": 1099.99,
+    "stock": 12,
+    "lowStockThreshold": 5,
+    "category": "Tablets",
+    "imageUrl": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=300&h=300&fit=crop"
+  },
+  {
+    "Id": 6,
+    "name": "Apple Watch Series 9",
+    "sku": "AWS9-45MM",
+    "price": 429.99,
+    "stock": 18,
+    "lowStockThreshold": 8,
+    "category": "Wearables",
+    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300&h=300&fit=crop"
+  },
+  {
+    "Id": 7,
+    "name": "Sony WH-1000XM5",
+    "sku": "WH1000XM5-BLK",
+    "price": 399.99,
+    "stock": 6,
+    "lowStockThreshold": 5,
+    "category": "Audio",
+    "imageUrl": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=300&h=300&fit=crop"
+  },
+  {
+    "Id": 8,
+    "name": "Nintendo Switch OLED",
+    "sku": "NSW-OLED-WHT",
+    "price": 349.99,
+    "stock": 0,
+    "lowStockThreshold": 5,
+    "category": "Gaming",
+    "imageUrl": "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=300&h=300&fit=crop"
+  },
+  {
+    "Id": 9,
+    "name": "Dell XPS 13",
+    "sku": "XPS13-I7-512",
+    "price": 1299.99,
+    "stock": 4,
+    "lowStockThreshold": 3,
+    "category": "Computers",
+    "imageUrl": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=300&h=300&fit=crop"
+  },
+  {
+    "Id": 10,
+    "name": "Bose QuietComfort 45",
+    "sku": "QC45-BLK",
+    "price": 329.99,
+    "stock": 14,
+    "lowStockThreshold": 6,
+    "category": "Audio",
+    "imageUrl": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=300&h=300&fit=crop"
+  },
+  {
+    "Id": 11,
+    "name": "GoPro Hero 12",
+    "sku": "GPH12-BLK",
+    "price": 399.99,
+    "stock": 9,
+    "lowStockThreshold": 4,
+    "category": "Cameras",
+    "imageUrl": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=300&h=300&fit=crop"
+  },
+  {
+    "Id": 12,
+    "name": "Microsoft Surface Pro 9",
+    "sku": "MSP9-I5-256",
+    "price": 999.99,
+    "stock": 7,
+    "lowStockThreshold": 4,
+    "category": "Tablets",
+    "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=300&h=300&fit=crop"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "Id": 1,
+  "shopInfo": {
+    "name": "TechHub Store",
+    "address": "123 Main Street, Downtown",
+    "phone": "(555) 123-4567",
+    "email": "contact@techhubstore.com",
+    "taxRate": 0.08
+  },
+  "lowStockThresholds": {
+    "default": 5,
+    "Electronics": 8,
+    "Audio": 6,
+    "Computers": 3
+  },
+  "preferences": {
+    "currency": "USD",
+    "showLowStockAlerts": true,
+    "autoBackup": true,
+    "soundEnabled": true,
+    "darkMode": false
+  },
+  "paymentMethods": [
+    "Cash",
+    "Credit Card",
+    "Debit Card",
+    "Mobile Payment"
+  ]
+}

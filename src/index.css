@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'react-toastify/dist/ReactToastify.css';
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .font-display {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 text-white px-6 py-3 rounded-lg font-medium shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-gradient-to-r from-secondary-500 to-secondary-600 hover:from-secondary-600 hover:to-secondary-700 text-white px-6 py-3 rounded-lg font-medium shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-200;
+  }
+  
+  .btn-accent {
+    @apply bg-gradient-to-r from-accent-500 to-accent-600 hover:from-accent-600 hover:to-accent-700 text-white px-6 py-3 rounded-lg font-medium shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-card border border-gray-100 backdrop-blur-sm;
+  }
+  
+  .card-elevated {
+    @apply bg-white rounded-xl shadow-elevated border border-gray-100 backdrop-blur-md;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200 bg-white;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent;
+  }
+  
+  .stock-badge-high {
+    @apply bg-gradient-to-r from-success-500 to-success-600 text-white px-3 py-1 rounded-full text-sm font-medium;
+  }
+  
+  .stock-badge-low {
+    @apply bg-gradient-to-r from-warning-500 to-warning-600 text-white px-3 py-1 rounded-full text-sm font-medium;
+  }
+  
+  .stock-badge-out {
+    @apply bg-gradient-to-r from-error-500 to-error-600 text-white px-3 py-1 rounded-full text-sm font-medium;
+  }
+}
+
+/* Toast Styling */
+.Toastify__toast-container {
+  @apply top-4 right-4;
+  z-index: 9999;
+}
+
+.Toastify__toast {
+  @apply rounded-lg shadow-lg border border-gray-200 backdrop-blur-sm;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+.Toastify__toast--success {
+  @apply bg-gradient-to-r from-success-50 to-success-100 border-success-200;
+}
+
+.Toastify__toast--error {
+  @apply bg-gradient-to-r from-error-50 to-error-100 border-error-200;
+}
+
+.Toastify__toast--warning {
+  @apply bg-gradient-to-r from-warning-50 to-warning-100 border-warning-200;
+}
+
+.Toastify__toast--info {
+  @apply bg-gradient-to-r from-primary-50 to-primary-100 border-primary-200;
+}
+
+.Toastify__progress-bar {
+  @apply bg-gradient-to-r from-primary-500 to-primary-600;
+}
+
+/* Bottom Navigation */
+.bottom-nav-item {
+  @apply flex flex-col items-center justify-center p-2 transition-all duration-200;
+}
+
+.bottom-nav-item.active {
+  @apply text-primary-600;
+}
+
+.bottom-nav-item:not(.active) {
+  @apply text-gray-500 hover:text-gray-700;
+}
+
+/* Mobile Optimizations */
+@media (max-width: 768px) {
+  .container {
+    @apply px-4;
+  }
+  
+  .card {
+    @apply mx-4 rounded-lg;
+  }
+  
+  .btn-primary, .btn-secondary, .btn-accent {
+    @apply px-4 py-3 text-base;
+  }
+}
